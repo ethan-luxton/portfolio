@@ -1,6 +1,8 @@
 @import '/src/scss/themes/theme-dark.scss';
 @import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
 
 html {
 	font-size: 62.5%;
@@ -17,28 +19,29 @@ html {
 
 .title-container {
 	height: 50px;
+	font-size:3vh;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .title-styles {
-	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
 }
 
 .header-icon {
 	height: 150px;
 	width: 150px;
+	
 }
-
 header {
 	position: relative;
-	height: 520px;
+	height: 260px;
 	min-height: 450px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #E4F2E7;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -48,7 +51,7 @@ header {
 }
 
 header .nav {
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
@@ -61,7 +64,7 @@ header .nav {
 
 .language-icon {
 	font-size: 50px;
-	cursor: pointer;
+	visibility: hidden;
 }
 
 .project-date {
@@ -92,13 +95,23 @@ header .nav {
 }
 
 header h1 {
-	font-size: 400%;
-	text-align: center;
-	font-weight: 600 !important;
-	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	margin: 0 auto 18px auto;
-	width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vh;
+    background:url('https://wallpapercave.com/wp/wp8440583.jpg');
+    background-size: auto 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 8s linear infinite;
+    
+    @keyframes shine {
+    from {
+        background-position: center 0;
+    }
+    to {
+        background-position: center 200%;
+    }
+    }
 }
 
 .slider-image {
@@ -120,16 +133,16 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #387373;
 	overflow: hidden;
 }
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+
 	text-align: center;
 }
 
@@ -191,7 +204,7 @@ header h1 {
 	background: #ffffff;
 	display: inline-block;
 	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
+	padding: 35px 35px 50px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -231,7 +244,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #93BFB7;
 }
 
 .experience-icon {
@@ -265,6 +278,7 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+
 }
 
 @media only screen and (max-width: 1170px) {
@@ -353,7 +367,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #93BFB7;
 	padding-bottom: 5%;
 }
 
@@ -389,7 +403,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #2D3E40;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -399,7 +413,7 @@ header h1 {
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;
@@ -414,7 +428,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #2D3E40;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -437,4 +451,7 @@ footer a:focus {
 .social-links {
 	margin-top: 10px;
 	font-size: 22px;
+	color:black;
+	text-align: center;
 }
+

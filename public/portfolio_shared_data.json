@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Ethan Luxton",
-      "titles": [ "Full-Stack Software Developer" ],
+      "titles": [ "Creative Software Developer" ],
       "social": [
         {
           "name": "github",
@@ -19,7 +19,7 @@
           "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "IMG_0084.png"
     },
     "skills": {
       "icons": [
