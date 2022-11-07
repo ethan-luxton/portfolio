@@ -105,3 +105,4 @@ class ProjectDetailsModal extends Component {
 }
 
 export default ProjectDetailsModal;
+

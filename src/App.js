@@ -40,6 +40,7 @@ class App extends Component {
       .getElementById(pickedLangIconId)
       .setAttribute("filter", "brightness(40%)");
   }
+  
 
   componentDidMount = () => {
     this.loadSharedData();
