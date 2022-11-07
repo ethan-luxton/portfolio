@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Ethan Luxton",
-      "titles": [ "Full-Stack Software Developer" ],
+      "titles": [ "Creative Software Developer" ],
       "social": [
         {
           "name": "github",
@@ -19,7 +19,7 @@
           "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "IMG_0084.png"
     },
     "skills": {
       "icons": [
@@ -57,7 +57,28 @@
           "name": "C#",
           "class": "devicon-csharp-plain",
           "level": "65"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "65"
+        },
+        {
+          "name": "Express.js",
+          "class": "devicon-express-original",
+          "level": "65"
+        },
+        {
+          "class": "devicon-heroku-original",
+          "name": "Heroku",
+          "level": "65"
+        },
+        {
+          "class": "devicon-github-original",
+          "name": "Git/GitHub",
+          "level": "65"
         }
       ]
     }
   }
+  

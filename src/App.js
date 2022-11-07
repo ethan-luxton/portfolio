@@ -40,6 +40,7 @@ class App extends Component {
       .getElementById(pickedLangIconId)
       .setAttribute("filter", "brightness(40%)");
   }
+  
 
   componentDidMount = () => {
     this.loadSharedData();
@@ -80,7 +81,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header sharedData={this.state.sharedData.basic_info} sharedBasicInfo={this.state.sharedData.basic_info}/>
         <Routes>
           <Route 
             exact path="/" 

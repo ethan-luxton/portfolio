@@ -34,6 +34,17 @@ class Header extends Component {
     const HeaderTitleTypeAnimation = React.memo( () => {
       return this.titles
     }, (props, prevProp) => true);
+    if (this.props.sharedBasicInfo) {
+      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+        return (
+          <span key={network.name} className="m-4">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
+              <i className={network.class}></i>
+            </a>
+          </span>
+        );
+      });
+    }
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
@@ -60,7 +71,7 @@ class Header extends Component {
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
               offColor="#baaa80"
-              onColor="#353535"
+              onColor="#2D3E40"
               className="react-switch mx-auto"
               width={90}
               height={40}
@@ -109,6 +120,7 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
+              <div className="col social-links">{networks}</div>
               
             </div>
           </div>
@@ -119,3 +131,4 @@ class Header extends Component {
 }
 
 export default Header;
+
