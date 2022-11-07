@@ -59,14 +59,14 @@
         ]
       },
       {
-        "title": "Project Placeholder",
+        "title": "Can of Books",
         "startDate": "2022",
-        "description": "This is a placeholder for my Code Fellows, Code 301 final project.",
+        "description": "This project intended to test my skills in creating a Express.js server that utilized Axios, dotEnv, Cors and MongoDB to pass information to a React-based frontend application. The front end is hosted on Netlify and the backend is hosted on Heroku",
         "images": [
-          "https://i.imgur.com/EFBNEW9.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "https://i.imgur.com/dWfJoRg.png",
+          "https://i.imgur.com/gRkcraG.png"
         ],
-        "url": "",
+        "url": "https://can-of-books-301n28.netlify.app/",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -77,16 +77,20 @@
             "name": "JavaScript"
           },
           {
-            "class": "devicon-sass-plain",
-            "name": "SCSS"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           },
           {
-            "class": "devicon-python-plain",
-            "name": "Python 3"
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           },
           {
-            "class": "fa-brands fa-aws",
-            "name": "AWS"
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-heroku-original",
+            "name": "Heroku"
           }
         ]
       }

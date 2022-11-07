@@ -57,6 +57,26 @@
           "name": "C#",
           "class": "devicon-csharp-plain",
           "level": "65"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "65"
+        },
+        {
+          "name": "Express.js",
+          "class": "devicon-express-original",
+          "level": "65"
+        },
+        {
+          "class": "devicon-heroku-original",
+          "name": "Heroku",
+          "level": "65"
+        },
+        {
+          "class": "devicon-github-original",
+          "name": "Git/GitHub",
+          "level": "65"
         }
       ]
     }
