@@ -15,7 +15,7 @@
         "startDate": "2022",
         "description": "My first experience with creating a game within a web application. Tarkine is a puzzle and decision based story game that takes the player on a journey to safety after a terrible plane crash. The player must find items, solve puzzles, and make the correct decisions to escape the forest.",
         "images": [
-          "https://i.imgur.com/9HJTuFj.png",
+          "https://i.imgur.com/o2uXJoq.mp4",
           "https://i.imgur.com/5bzWKjB.png"
         ],
         "url": "https://tarkine.github.io/Main/",
@@ -39,7 +39,7 @@
         "startDate": "2022",
         "description": "This was an infamous project during my time at Code Fellows. It tested ability in DOM manipulation and randomized data.",
         "images": [
-          "https://i.imgur.com/5gwP0gI.png",
+          "https://i.imgur.com/KeTdCT8.mp4",
           "https://i.imgur.com/SDXDItx.png"
         ],
         "url": "https://ethan-luxton.github.io/cookie-stand/",
@@ -63,7 +63,7 @@
         "startDate": "2022",
         "description": "This project intended to test my skills in creating a Express.js server that utilized Axios, dotEnv, Cors and MongoDB to pass information to a React-based frontend application. The front end is hosted on Netlify and the backend is hosted on Heroku",
         "images": [
-          "https://i.imgur.com/dWfJoRg.png",
+          "https://i.imgur.com/VTFX7cm.mp4",
           "https://i.imgur.com/gRkcraG.png"
         ],
         "url": "https://can-of-books-301n28.netlify.app/",
@@ -91,6 +91,38 @@
           {
             "class": "devicon-heroku-original",
             "name": "Heroku"
+          }
+        ]
+      },
+      {
+        "title": "SpaceXplorer",
+        "startDate": "2022",
+        "description": "SpaceXplorer is a web application where authorized users can query the night sky to learn what is viewable for a provided location. The app will query the location and return search results that include: a customized map of the night sky along with location info for the Moon and planets in our solar system, and the weather forecast. The app user will have the ability add, update, or delete Favorite searches from their profile.",
+        "images": [
+          "https://i.imgur.com/0X01m7P.mp4",
+          "https://i.imgur.com/gRkcraG.png"
+        ],
+        "url": "https://spacex-plorer.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-sass-original",
+            "name": "SCSS"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
           }
         ]
       }
