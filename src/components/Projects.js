@@ -28,11 +28,12 @@ class Projects extends Component {
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
-                  <img
+                  <video
                     src={projects.images[0]}
-                    alt="projectImages"
                     height="230"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    autoplay
+                    muted
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
